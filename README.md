@@ -47,7 +47,7 @@ there are some selectable options available through some scripts that can be run
 through runcommand, in the runcommand menu go to the option called user menu and a
 bunch of options will appear with straightforward descriptions.
 
-#### the game boy emulator has selectable palettes:
+the game boy emulator has selectable palettes:
 - **set_gb_palette_DMG:** adjust the palette of game boy games to resemble the original
                           game boy colors.
 - **set_gb_palette_GBL:** adjust the palette of game boy games to resemble the game boy
