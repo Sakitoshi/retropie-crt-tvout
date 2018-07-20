@@ -112,5 +112,6 @@ screen:
 8. read above if you want to change how portable consoles are going to look or change
    game boy palettes.
 9. enjoy your games on a good'ol crt tv.
+
 follow the retropie documentation if you don't know how to connect your raspberry pi
 to your network, samba shares or how to use runcommand.
