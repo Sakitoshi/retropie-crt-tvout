@@ -48,8 +48,8 @@ for crt to avoid interference with other systems and hd tv settings.
 
 #### selectable settings:
 there are some selectable options available through some scripts that can be run
-through runcommand, in the runcommand menu go to the option called user menu and a
-bunch of options will appear with straightforward descriptions.
+through runcommand, in the runcommand menu go to the option called _user menu_ and a
+bunch of options will appear with straightforward names.
 
 the game boy emulator has selectable palettes:
 - **set_gb_palette_DMG:** adjust the palette of game boy games to resemble the original
@@ -103,7 +103,7 @@ screen:
 
 if you wish to force 480i you can create a _480i.txt_ file inside the configuration folder
 of the system with a list with the file name (case insensitive, extension optional but recomended)
-of the games you want to force 480i. example: configs/psx/480i.txt containing Bloody Roar 2.pbp.
+of the games you want to force 480i. example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_.
 
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
