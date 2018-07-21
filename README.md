@@ -103,11 +103,11 @@ screen:
 
 if you wish to force 480i you can create a _480i.txt_ file inside the configuration folder
 of the system with a list with the file name (case insensitive, extension optional but recommended)
-of the games you want to force 480i. if you want to force 480i for a whole system you can
+of the games you want to force 480i.</br>
+if you want to force 480i for a whole system you can
 write _all_ inside the _480i.txt_ file.
 
-example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i only to _Bloody Roar 2_
-
+example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i only to _Bloody Roar 2_</br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.
 
 #### how to use:
