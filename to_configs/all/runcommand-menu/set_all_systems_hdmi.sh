@@ -1,0 +1,24 @@
+cp /opt/retropie/configs/arcade/retroarch_hdmi.cfg /opt/retropie/configs/arcade/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atarilynx/retroarch_hdmi.cfg /opt/retropie/configs/atarilynx/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/fds/retroarch_hdmi.cfg /opt/retropie/configs/fds/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/gamegear/retroarch_hdmi.cfg /opt/retropie/configs/gamegear/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/gb/retroarch_hdmi.cfg /opt/retropie/configs/gb/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/gba/retroarch_hdmi.cfg /opt/retropie/configs/gba/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/gbc/retroarch_hdmi.cfg /opt/retropie/configs/gbc/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/mastersystem/retroarch_hdmi.cfg /opt/retropie/configs/mastersystem/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/megadrive/retroarch_hdmi.cfg /opt/retropie/configs/megadrive/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/neogeo/retroarch_hdmi.cfg /opt/retropie/configs/neogeo/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/nes/retroarch_hdmi.cfg /opt/retropie/configs/nes/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/ngp/retroarch_hdmi.cfg /opt/retropie/configs/ngp/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/ngpc/retroarch_hdmi.cfg /opt/retropie/configs/ngpc/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/pc/retroarch_hdmi.cfg /opt/retropie/configs/pc/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/pce-cd/retroarch_hdmi.cfg /opt/retropie/configs/pce-cd/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/pcengine/retroarch_hdmi.cfg /opt/retropie/configs/pcengine/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/ports/cavestory/retroarch_hdmi.cfg /opt/retropie/configs/ports/cavestory/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/ports/doom/retroarch_hdmi.cfg /opt/retropie/configs/ports/doom/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/ports/quake/retroarch_hdmi.cfg /opt/retropie/configs/ports/quake/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/psx/retroarch_hdmi.cfg /opt/retropie/configs/psx/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/sega32x/retroarch_hdmi.cfg /opt/retropie/configs/sega32x/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/segacd/retroarch_hdmi.cfg /opt/retropie/configs/segacd/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/snes/retroarch_hdmi.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
+exit 1

@@ -1,0 +1,12 @@
+shaders = 3
+shader0 = shaders/tvout-tweaks_sharp.glsl
+wrap_mode0 = clamp_to_border
+scale_type_0 = source
+shader1 = ../stock.glsl
+wrap_mode1 = clamp_to_border
+scale_type_1 = source
+shader2 = ../shaders/color/gba-color.glsl
+wrap_mode2 = clamp_to_border
+scale_type_2 = source
+parameters = darken_screen
+darken_screen = 0.500000
