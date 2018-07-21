@@ -1,7 +1,9 @@
 # retropie-crt-tvout
+
 this is a set of configurations tunned to get the most accurate to real hardware as
 possible picture on an ntsc crt tv using the composite video out of the raspberry pi
 while also being able to use it on an hd tv without having to swap sd cards.
+
 the crt configurations aren't perfect as the configurations available in the built-in
 composite out of the raspberry pi are very limited.
 
@@ -35,9 +37,11 @@ retroarch scaling capabilities and shaders to match each system resolution.
 it is better if a fresh instalation of retropie is used, but if you plan on
 applying this to an already working instalation of retropie there are some
 core options that need to be changed to make some systems work as intended.
+
 please check to_configs/all/retroarch-core-options.cfg and compare it against
 your current instalation of retropie intead of overwriting it if you wish to
 keep your own core options.
+
 some systems (famicom disk system, game gear, game boy, game boy color,
 genesis/mega drive, master system, nes and sega cd) use a separate core options file
 for crt to avoid interference with other systems and hd tv settings.
@@ -96,6 +100,10 @@ screen:
 - **set_this_portable_hdmi_no_border:** displays the image of the portable system in a
                                         multiple of its original resolution leaving the
                                         edges of the screen blank.
+
+if you wish to force 480i you can create a _480i.txt_ file inside the configuration folder
+of the system with a list with the file name (case insensitive, extension optional but recomended)
+of the games you want to force 480i. example: configs/psx/480i.txt containing Bloody Roar 2.pbp.
 
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
