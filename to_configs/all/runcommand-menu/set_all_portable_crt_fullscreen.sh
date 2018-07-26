@@ -5,4 +5,6 @@ echo fullscreen > /opt/retropie/configs/gba/default; cp /opt/retropie/configs/gb
 echo fullscreen > /opt/retropie/configs/gbc/default; cp /opt/retropie/configs/gbc/retroarch_fullscreen.cfg /opt/retropie/configs/gbc/retroarch.cfg > /dev/null
 echo fullscreen > /opt/retropie/configs/ngp/default; cp /opt/retropie/configs/ngp/retroarch_fullscreen.cfg /opt/retropie/configs/ngp/retroarch.cfg > /dev/null
 echo fullscreen > /opt/retropie/configs/ngpc/default; cp /opt/retropie/configs/ngpc/retroarch_fullscreen.cfg /opt/retropie/configs/ngpc/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/wonderswan/retroarch_crt.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/wonderswancolor/retroarch_crt.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
 exit 1
