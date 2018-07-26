@@ -1,5 +1,6 @@
 cp /opt/retropie/configs/arcade/retroarch_crt.cfg /opt/retropie/configs/arcade/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/atarilynx/default`; cp /opt/retropie/configs/atarilynx/retroarch_$default.cfg /opt/retropie/configs/atarilynx/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/doom/retroarch_crt.cfg /opt/retropie/configs/doom/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/fds/retroarch_crt.cfg /opt/retropie/configs/fds/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/gamegear/default`; cp /opt/retropie/configs/gamegear/retroarch_$default.cfg /opt/retropie/configs/gamegear/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/gb/default`; cp /opt/retropie/configs/gb/retroarch_$default.cfg /opt/retropie/configs/gb/retroarch.cfg > /dev/null
@@ -21,4 +22,6 @@ cp /opt/retropie/configs/psx/retroarch_crt.cfg /opt/retropie/configs/psx/retroar
 cp /opt/retropie/configs/sega32x/retroarch_crt.cfg /opt/retropie/configs/sega32x/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/segacd/retroarch_crt.cfg /opt/retropie/configs/segacd/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/snes/retroarch_crt.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/wonderswan/retroarch_crt.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/wonderswancolor/retroarch_crt.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
 exit 1

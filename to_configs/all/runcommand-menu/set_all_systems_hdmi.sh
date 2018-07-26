@@ -1,5 +1,6 @@
 cp /opt/retropie/configs/arcade/retroarch_hdmi.cfg /opt/retropie/configs/arcade/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/atarilynx/default`; if [[ "$default" = "border" ]] && tvservice -s | grep "720"; then cp /opt/retropie/configs/atarilynx/retroarch_720_border.cfg /opt/retropie/configs/atarilynx/retroarch.cfg; elif [[ "$default" = "border" ]] && tvservice -s | grep "1080"; then cp /opt/retropie/configs/atarilynx/retroarch_1080_border.cfg /opt/retropie/configs/atarilynx/retroarch.cfg; else cp /opt/retropie/configs/atarilynx/retroarch_hdmi.cfg /opt/retropie/configs/atarilynx/retroarch.cfg; fi > /dev/null
+cp /opt/retropie/configs/doom/retroarch_hdmi.cfg /opt/retropie/configs/doom/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/fds/retroarch_hdmi.cfg /opt/retropie/configs/fds/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/gamegear/default`; if [[ "$default" = "border" ]] && tvservice -s | grep "720"; then cp /opt/retropie/configs/gamegear/retroarch_720_border.cfg /opt/retropie/configs/gamegear/retroarch.cfg; elif [[ "$default" = "border" ]] && tvservice -s | grep "1080"; then cp /opt/retropie/configs/gamegear/retroarch_1080_border.cfg /opt/retropie/configs/gamegear/retroarch.cfg; else cp /opt/retropie/configs/gamegear/retroarch_hdmi.cfg /opt/retropie/configs/gamegear/retroarch.cfg; fi > /dev/null
 default=`cat /opt/retropie/configs/gb/default`; if [[ "$default" = "border" ]] && tvservice -s | grep "720"; then cp /opt/retropie/configs/gb/retroarch_720_border.cfg /opt/retropie/configs/gb/retroarch.cfg; elif [[ "$default" = "border" ]] && tvservice -s | grep "1080"; then cp /opt/retropie/configs/gb/retroarch_1080_border.cfg /opt/retropie/configs/gb/retroarch.cfg; else cp /opt/retropie/configs/gb/retroarch_hdmi.cfg /opt/retropie/configs/gb/retroarch.cfg; fi > /dev/null
@@ -21,4 +22,6 @@ cp /opt/retropie/configs/psx/retroarch_hdmi.cfg /opt/retropie/configs/psx/retroa
 cp /opt/retropie/configs/sega32x/retroarch_hdmi.cfg /opt/retropie/configs/sega32x/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/segacd/retroarch_hdmi.cfg /opt/retropie/configs/segacd/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/snes/retroarch_hdmi.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/wonderswan/retroarch_hdmi.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/wonderswancolor/retroarch_hdmi.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
 exit 1
