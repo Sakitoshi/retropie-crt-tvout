@@ -8,7 +8,7 @@ the crt configurations aren't perfect as the configurations available in the bui
 composite out of the raspberry pi are very limited.
 
 #### systems (and emulator) configured and tested:
-- arcade (finalburn alpha and mame 2003. if the game native vertical resolution is 224)
+- arcade (finalburn alpha and mame 2003. if the game native vertical resolution is 480 or less)
 - famicom disk system (fceumm and nestopia)
 - game gear (genesis plus gx)
 - game boy (gambatte)
@@ -30,6 +30,7 @@ composite out of the raspberry pi are very limited.
 - sega cd (genesis plus gx only)
 - super nes (snes9x 2010, previous versions should work too)
 - turbografx 16/pc engine/pce-cd (mednafen pce fast)
+- wonderswan/color (mednafen wonderswan)
 
 all the configurations are for the libretro version of the emulators as they use
 retroarch scaling capabilities and shaders to match each system resolution.
@@ -71,7 +72,7 @@ scripts:
                             to all systems.
 
 portable systems also have some extra settings to display a border around or fill the
-screen:
+screen (wonderswan/color doesn't have a border or fullscreen mode):
 - **set_this_portable_crt_border:** adjusts the image to match each scanline perfectly and
                                     has a border corresponding the emulated system only for
                                     the system of the selected game, if the system isn't a
@@ -92,14 +93,19 @@ screen:
                                           multiple of its original resolution displaying
                                           a border corresponding the emulated system
                                           on the edges of the screen, adjusted for 1080p
-                                          resolution.
+                                          resolution. set_all_portable_hdmi_1080_border
+                                          does the same but to all portable systems.
 - **set_this_portable_hdmi_720_border:** displays the image of the portable system in a
                                          multiple of its original resolution displaying a
                                          border corresponding the emulated system on the
                                          edges of the screen, adjusted for 720p resolution.
+                                         set_all_portable_hdmi_720_border does the same but
+                                         to all portable systems.
 - **set_this_portable_hdmi_no_border:** displays the image of the portable system in a
                                         multiple of its original resolution leaving the
                                         edges of the screen blank.
+                                        set_all_portable_hdmi_no_border does the same but
+                                        to all portable systems.
 
 if you wish to force 480i you can create a _480i.txt_ file inside the configuration folder
 of the system with a list with the file name (case insensitive, extension optional but recommended)
