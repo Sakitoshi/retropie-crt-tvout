@@ -9,6 +9,7 @@ shader1 = ../shaders/color/gba-color.glsl
 wrap_mode1 = clamp_to_border
 scale_type_1 = source
 shader2 = shaders/box-portables.glsl
+filter_linear2 = true
 wrap_mode2 = clamp_to_border
 scale_type_2 = source
 parameters = darken_screen

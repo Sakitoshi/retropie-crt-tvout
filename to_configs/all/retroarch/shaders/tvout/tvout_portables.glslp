@@ -6,5 +6,6 @@ scale_type_y0 = source
 scale_x0 = 2.0
 scale_y0 = 2.0
 shader1 = shaders/box-portables.glsl
+filter_linear1 = true
 wrap_mode1 = clamp_to_border
 scale_type_1 = source
