@@ -205,6 +205,8 @@ void main()
     float _video_X;
     if (abs(InputSize.x) < 304.0)
         _video_X = (InputSize.x*1.0);
+    else if (abs(InputSize.x) < 320.0 && abs(InputSize.x) >= 304.0)
+        _video_X = (InputSize.x*0.7);
     else
         _video_X = (InputSize.x*0.6);
     vec3 _tempColor;
