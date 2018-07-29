@@ -72,7 +72,8 @@ scripts:
                             to all systems.
 
 portable systems also have some extra settings to display a border around or fill the
-screen (wonderswan/color doesn't have a border or fullscreen mode):
+screen (due to how mid-game rotation is handled wonderswan/color doesn't have a fullscreen
+mode for crt or a border mode for hdmi):
 - **set_this_portable_crt_border:** adjusts the image to match each scanline perfectly and
                                     has a border corresponding the emulated system only for
                                     the system of the selected game, if the system isn't a

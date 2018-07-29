@@ -1,2 +1,2 @@
-if [[ "$1" = @("atarilynx"|"gamegear"|"gb"|"gba"|"gbc"|"ngp"|"ngpc") ]]; then echo pixelperfect > /opt/retropie/configs/$1/default; cp /opt/retropie/configs/$1/retroarch_pixelperfect.cfg /opt/retropie/configs/$1/retroarch.cfg; elif [[ "$1" = @("wonderswan"|"wonderswancolor") ]]; then cp /opt/retropie/configs/$1/retroarch_crt.cfg /opt/retropie/configs/$1/retroarch.cfg; fi > /tmp/null
+if [[ "$1" = @("atarilynx"|"gamegear"|"gb"|"gba"|"gbc"|"ngp"|"ngpc"|"wonderswan"|"wonderswancolor") ]]; then echo pixelperfect > /opt/retropie/configs/$1/default; cp /opt/retropie/configs/$1/retroarch_pixelperfect.cfg /opt/retropie/configs/$1/retroarch.cfg; fi > /tmp/null
 exit 1
