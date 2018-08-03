@@ -9,6 +9,10 @@ composite out of the raspberry pi are very limited.
 
 #### systems (and emulator) configured and tested:
 - arcade (finalburn alpha and mame 2003. if the game native vertical resolution is 480 or less)
+- atari 8bit computers (atari800)
+- atari 2600 (stella)
+- atari 5200 (atari800)
+- atari 7800 (prosystem)
 - famicom disk system (fceumm and nestopia)
 - game gear (genesis plus gx)
 - game boy (gambatte)
