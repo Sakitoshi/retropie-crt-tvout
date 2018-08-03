@@ -1,4 +1,8 @@
 cp /opt/retropie/configs/arcade/retroarch_hdmi.cfg /opt/retropie/configs/arcade/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari800/retroarch_hdmi.cfg /opt/retropie/configs/atari800/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari2600/retroarch_hdmi.cfg /opt/retropie/configs/atari2600/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari5200/retroarch_hdmi.cfg /opt/retropie/configs/atari5200/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari7800/retroarch_hdmi.cfg /opt/retropie/configs/atari7800/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/atarilynx/default`; if [[ "$default" = "border" ]] && tvservice -s | grep "720"; then cp /opt/retropie/configs/atarilynx/retroarch_720_border.cfg /opt/retropie/configs/atarilynx/retroarch.cfg; elif [[ "$default" = "border" ]] && tvservice -s | grep "1080"; then cp /opt/retropie/configs/atarilynx/retroarch_1080_border.cfg /opt/retropie/configs/atarilynx/retroarch.cfg; else cp /opt/retropie/configs/atarilynx/retroarch_hdmi.cfg /opt/retropie/configs/atarilynx/retroarch.cfg; fi > /dev/null
 cp /opt/retropie/configs/doom/retroarch_hdmi.cfg /opt/retropie/configs/doom/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/fds/retroarch_hdmi.cfg /opt/retropie/configs/fds/retroarch.cfg > /dev/null

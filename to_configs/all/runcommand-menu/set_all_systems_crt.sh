@@ -1,4 +1,8 @@
 cp /opt/retropie/configs/arcade/retroarch_crt.cfg /opt/retropie/configs/arcade/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari800/retroarch_crt.cfg /opt/retropie/configs/atari800/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari2600/retroarch_crt.cfg /opt/retropie/configs/atari2600/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari5200/retroarch_crt.cfg /opt/retropie/configs/atari5200/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/atari7800/retroarch_crt.cfg /opt/retropie/configs/atari7800/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/atarilynx/default`; cp /opt/retropie/configs/atarilynx/retroarch_$default.cfg /opt/retropie/configs/atarilynx/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/doom/retroarch_crt.cfg /opt/retropie/configs/doom/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/fds/retroarch_crt.cfg /opt/retropie/configs/fds/retroarch.cfg > /dev/null
