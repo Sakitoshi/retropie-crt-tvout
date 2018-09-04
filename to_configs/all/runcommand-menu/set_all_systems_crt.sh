@@ -25,6 +25,7 @@ cp /opt/retropie/configs/ports/quake/retroarch_crt.cfg /opt/retropie/configs/por
 cp /opt/retropie/configs/psx/retroarch_crt.cfg /opt/retropie/configs/psx/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/sega32x/retroarch_crt.cfg /opt/retropie/configs/sega32x/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/segacd/retroarch_crt.cfg /opt/retropie/configs/segacd/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/sg-1000/retroarch_crt.cfg /opt/retropie/configs/sg-1000/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/snes/retroarch_crt.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/wonderswan/default`; cp /opt/retropie/configs/wonderswan/retroarch_$default.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/wonderswancolor/default`; cp /opt/retropie/configs/wonderswancolor/retroarch_$default.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
