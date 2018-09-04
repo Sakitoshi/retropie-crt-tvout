@@ -32,6 +32,7 @@ composite out of the raspberry pi are very limited.
 - playstation (pcsx-rearmed)
 - sega 32x (picodrive)
 - sega cd (genesis plus gx only)
+- sega sg-1000 (genesis plus gx)
 - super nes (snes9x 2010, previous versions should work too)
 - turbografx 16/pc engine/pce-cd (mednafen pce fast)
 - wonderswan/color (mednafen wonderswan)

@@ -25,6 +25,7 @@ cp /opt/retropie/configs/ports/quake/retroarch_hdmi.cfg /opt/retropie/configs/po
 cp /opt/retropie/configs/psx/retroarch_hdmi.cfg /opt/retropie/configs/psx/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/sega32x/retroarch_hdmi.cfg /opt/retropie/configs/sega32x/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/segacd/retroarch_hdmi.cfg /opt/retropie/configs/segacd/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/sg-1000/retroarch_hdmi.cfg /opt/retropie/configs/sg-1000/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/snes/retroarch_hdmi.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/wonderswan/retroarch_hdmi.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/wonderswancolor/retroarch_hdmi.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
