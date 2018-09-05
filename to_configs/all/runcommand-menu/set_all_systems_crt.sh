@@ -4,7 +4,6 @@ cp /opt/retropie/configs/atari2600/retroarch_crt.cfg /opt/retropie/configs/atari
 cp /opt/retropie/configs/atari5200/retroarch_crt.cfg /opt/retropie/configs/atari5200/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/atari7800/retroarch_crt.cfg /opt/retropie/configs/atari7800/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/atarilynx/default`; cp /opt/retropie/configs/atarilynx/retroarch_$default.cfg /opt/retropie/configs/atarilynx/retroarch.cfg > /dev/null
-cp /opt/retropie/configs/doom/retroarch_crt.cfg /opt/retropie/configs/doom/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/fds/retroarch_crt.cfg /opt/retropie/configs/fds/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/gamegear/default`; cp /opt/retropie/configs/gamegear/retroarch_$default.cfg /opt/retropie/configs/gamegear/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/gb/default`; cp /opt/retropie/configs/gb/retroarch_$default.cfg /opt/retropie/configs/gb/retroarch.cfg > /dev/null
@@ -12,6 +11,7 @@ default=`cat /opt/retropie/configs/gba/default`; cp /opt/retropie/configs/gba/re
 default=`cat /opt/retropie/configs/gbc/default`; cp /opt/retropie/configs/gbc/retroarch_$default.cfg /opt/retropie/configs/gbc/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/mastersystem/retroarch_crt.cfg /opt/retropie/configs/mastersystem/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/megadrive/retroarch_crt.cfg /opt/retropie/configs/megadrive/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/n64/retroarch_crt.cfg /opt/retropie/configs/n64/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/neogeo/retroarch_crt.cfg /opt/retropie/configs/neogeo/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/nes/retroarch_crt.cfg /opt/retropie/configs/nes/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/ngp/default`; cp /opt/retropie/configs/ngp/retroarch_$default.cfg /opt/retropie/configs/ngp/retroarch.cfg > /dev/null
