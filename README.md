@@ -122,7 +122,7 @@ of the system with a list with the file name (case insensitive, extension option
 of the games you want to force 480i.</br>
 if you want to force 480i for a whole system you can
 write _all_ inside the _480i.txt_ file.</br>
-this can also be used to 480i in kodi.
+this can also be used to set 480i in kodi.
 
 example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i only to _Bloody Roar 2_</br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.</br>
