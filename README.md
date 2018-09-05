@@ -21,6 +21,7 @@ composite out of the raspberry pi are very limited.
 - genesis/mega drive (genesis plus gx only)
 - lynx (handy)(horizontal only)
 - master system (genesis plus gx only)
+- nintendo 64 (mupen64plus)
 - neogeo (finalburn alpha)
 - neogeo pocket (mednafen neopop)
 - neogeo pocket color (mednafen neopop)
@@ -34,11 +35,14 @@ composite out of the raspberry pi are very limited.
 - sega cd (genesis plus gx only)
 - sega sg-1000 (genesis plus gx)
 - super nes (snes9x 2010, previous versions should work too)
-- turbografx 16/pc engine/pce-cd (mednafen pce fast)
+- turbografx 16/pc engine/pce-cd (mednafen pce fast and mednafen supergrafx)
 - wonderswan/color (mednafen wonderswan)
 
 all the configurations are for the libretro version of the emulators as they use
 retroarch scaling capabilities and shaders to match each system resolution.
+one exception is nintendo 64 which can be played without mayor problems with the
+standalone mupen64plus without modifications, a libretro mupen64plus config is
+provided anyways if you prefer that version.
 
 it is better if a fresh instalation of retropie is used, but if you plan on
 applying this to an already working instalation of retropie there are some
@@ -117,10 +121,12 @@ if you wish to force 480i you can create a _480i.txt_ file inside the configurat
 of the system with a list with the file name (case insensitive, extension optional but recommended)
 of the games you want to force 480i.</br>
 if you want to force 480i for a whole system you can
-write _all_ inside the _480i.txt_ file.
+write _all_ inside the _480i.txt_ file.</br>
+this can also be used to 480i in kodi.
 
 example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i only to _Bloody Roar 2_</br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/ports/kodi/480i.txt_ containing _all_ to force 480i in Kodi.
 
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
