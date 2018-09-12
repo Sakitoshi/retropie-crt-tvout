@@ -139,7 +139,8 @@ example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i onl
    sd card (use notepad++ or similar for this, never use windows notepad).**
 6. **put the sd card back on your raspberry pi and copy some games.**
 7. **install low resolution friendly themes for emulation station (gbz35, gbz35-dark,
-   freeplay, tft, pixel-tft, minilumi and simpler-turtlemini are good ones).**
+   freeplay, tft, pixel-tft, minilumi and simpler-turtlemini are good ones or you can try
+   [this one that I made](https://github.com/Sakitoshi/es-theme-Megarace-CRT)).**
 8. **read above if you want to change how portable consoles are going to look or change
    game boy palettes.**
 9. **enjoy your games on a good'ol crt tv.**
