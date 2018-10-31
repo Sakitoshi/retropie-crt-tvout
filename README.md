@@ -1,6 +1,10 @@
 # retropie-crt-tvout
 
-### since retroarch 1.7.4 the aspect_ratio_index setting changed, this configurations follow</br>this new aspect_ratio_index setting. if you want to use them with retroarch 1.7.3 or older</br>you'll have to change the aspect_ratio_index setting of every config file from "23" to "22".
+### since retroarch 1.7.4 the aspect_ratio_index setting changed, this configurations follow</br>
+this new aspect_ratio_index setting for default. if you want to use them with retroarch 1.7.3 or</br>
+older you need to run the "fix_aspect_ratio_index" script located at runcommand > user menu, that</br>
+script will automatically change the aspect_ratio_index setting of every config file depending on</br>
+the version of your currently installed retroarch.
 
 this is a set of configurations tunned to get the most accurate to real hardware as
 possible picture on an ntsc crt tv using the composite video out of the raspberry pi
