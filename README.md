@@ -1,8 +1,6 @@
 # retropie-crt-tvout
 
-### since retroarch 1.7.4 the aspect_ratio_index setting changed, this configurations follow
-this new aspect_ratio_index setting. if you want to use them with retroarch 1.7.3 or older
-you'll have to change the aspect_ratio_index setting of every config file from "23" to "22".
+### since retroarch 1.7.4 the aspect_ratio_index setting changed, this configurations follow</br>this new aspect_ratio_index setting. if you want to use them with retroarch 1.7.3 or older</br>you'll have to change the aspect_ratio_index setting of every config file from "23" to "22".
 
 this is a set of configurations tunned to get the most accurate to real hardware as
 possible picture on an ntsc crt tv using the composite video out of the raspberry pi
@@ -25,6 +23,7 @@ composite out of the raspberry pi are very limited.
 - genesis/mega drive (genesis plus gx only)
 - lynx (handy)(horizontal only)
 - master system (genesis plus gx only)
+- nintendo 64 (mupen64plus)
 - neogeo (finalburn alpha)
 - neogeo pocket (mednafen neopop)
 - neogeo pocket color (mednafen neopop)
@@ -38,11 +37,14 @@ composite out of the raspberry pi are very limited.
 - sega cd (genesis plus gx only)
 - sega sg-1000 (genesis plus gx)
 - super nes (snes9x 2010, previous versions should work too)
-- turbografx 16/pc engine/pce-cd (mednafen pce fast)
+- turbografx 16/pc engine/pce-cd (mednafen pce fast and mednafen supergrafx)
 - wonderswan/color (mednafen wonderswan)
 
 all the configurations are for the libretro version of the emulators as they use
 retroarch scaling capabilities and shaders to match each system resolution.
+one exception is nintendo 64 which can be played without mayor problems with the
+standalone mupen64plus without modifications, a libretro mupen64plus config is
+provided anyways if you prefer that version.
 
 it is better if a fresh instalation of retropie is used, but if you plan on
 applying this to an already working instalation of retropie there are some
@@ -121,10 +123,12 @@ if you wish to force 480i you can create a _480i.txt_ file inside the configurat
 of the system with a list with the file name (case insensitive, extension optional but recommended)
 of the games you want to force 480i.</br>
 if you want to force 480i for a whole system you can
-write _all_ inside the _480i.txt_ file.
+write _all_ inside the _480i.txt_ file.</br>
+this can also be used to set 480i in kodi.
 
 example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i only to _Bloody Roar 2_</br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/ports/kodi/480i.txt_ containing _all_ to force 480i in Kodi.
 
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
@@ -137,7 +141,8 @@ example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i onl
    sd card (use notepad++ or similar for this, never use windows notepad).**
 6. **put the sd card back on your raspberry pi and copy some games.**
 7. **install low resolution friendly themes for emulation station (gbz35, gbz35-dark,
-   freeplay, tft, pixel-tft, minilumi and simpler-turtlemini are good ones).**
+   freeplay, tft, pixel-tft, minilumi and simpler-turtlemini are good ones or you can try
+   [this one that I made](https://github.com/Sakitoshi/es-theme-Megarace-CRT)).**
 8. **read above if you want to change how portable consoles are going to look or change
    game boy palettes.**
 9. **enjoy your games on a good'ol crt tv.**
