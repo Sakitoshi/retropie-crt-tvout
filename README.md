@@ -29,6 +29,7 @@ composite out of the raspberry pi are very limited.
 - neogeo pocket color (mednafen neopop)
 - nes (fceumm and nestopia)
 - ms-dos (dosbox)
+- nec pc98 (np2kai)
 - ports > cave story (nx engine)
 - ports > doom (prboom)
 - ports > quake (tyrquake)
