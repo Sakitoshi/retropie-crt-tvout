@@ -29,6 +29,7 @@ composite out of the raspberry pi are very limited.
 - neogeo pocket color (mednafen neopop)
 - nes (fceumm and nestopia)
 - ms-dos (dosbox)
+- nec pc98 (np2kai)
 - ports > cave story (nx engine)
 - ports > doom (prboom)
 - ports > quake (tyrquake)
@@ -36,7 +37,7 @@ composite out of the raspberry pi are very limited.
 - sega 32x (picodrive)
 - sega cd (genesis plus gx only)
 - sega sg-1000 (genesis plus gx)
-- super nes (snes9x 2010, previous versions should work too)
+- super nes (snes9x 2010, but other versions should work too)
 - turbografx 16/pc engine/pce-cd (mednafen pce fast and mednafen supergrafx)
 - wonderswan/color (mednafen wonderswan)
 
