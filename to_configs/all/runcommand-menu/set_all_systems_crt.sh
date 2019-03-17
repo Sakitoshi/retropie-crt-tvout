@@ -11,6 +11,7 @@ default=`cat /opt/retropie/configs/gba/default`; cp /opt/retropie/configs/gba/re
 default=`cat /opt/retropie/configs/gbc/default`; cp /opt/retropie/configs/gbc/retroarch_$default.cfg /opt/retropie/configs/gbc/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/mastersystem/retroarch_crt.cfg /opt/retropie/configs/mastersystem/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/megadrive/retroarch_crt.cfg /opt/retropie/configs/megadrive/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/msx/retroarch_crt.cfg /opt/retropie/configs/msx/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/n64/retroarch_crt.cfg /opt/retropie/configs/n64/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/neogeo/retroarch_crt.cfg /opt/retropie/configs/neogeo/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/nes/retroarch_crt.cfg /opt/retropie/configs/nes/retroarch.cfg > /dev/null
