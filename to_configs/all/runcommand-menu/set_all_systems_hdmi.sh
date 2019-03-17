@@ -11,6 +11,7 @@ default=`cat /opt/retropie/configs/gba/default`; if [[ "$default" = "border" ]] 
 default=`cat /opt/retropie/configs/gbc/default`; if [[ "$default" = "border" ]] && tvservice -s | grep "720"; then cp /opt/retropie/configs/gbc/retroarch_720_border.cfg /opt/retropie/configs/gbc/retroarch.cfg; elif [[ "$default" = "border" ]] && tvservice -s | grep "1080"; then cp /opt/retropie/configs/gbc/retroarch_1080_border.cfg /opt/retropie/configs/gbc/retroarch.cfg; else cp /opt/retropie/configs/gbc/retroarch_hdmi.cfg /opt/retropie/configs/gbc/retroarch.cfg; fi > /dev/null
 cp /opt/retropie/configs/mastersystem/retroarch_hdmi.cfg /opt/retropie/configs/mastersystem/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/megadrive/retroarch_hdmi.cfg /opt/retropie/configs/megadrive/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/msx/retroarch_hdmi.cfg /opt/retropie/configs/msx/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/n64/retroarch_hdmi.cfg /opt/retropie/configs/n64/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/neogeo/retroarch_hdmi.cfg /opt/retropie/configs/neogeo/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/nes/retroarch_hdmi.cfg /opt/retropie/configs/nes/retroarch.cfg > /dev/null
