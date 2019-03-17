@@ -17,6 +17,7 @@ cp /opt/retropie/configs/nes/retroarch_crt.cfg /opt/retropie/configs/nes/retroar
 default=`cat /opt/retropie/configs/ngp/default`; cp /opt/retropie/configs/ngp/retroarch_$default.cfg /opt/retropie/configs/ngp/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/ngpc/default`; cp /opt/retropie/configs/ngpc/retroarch_$default.cfg /opt/retropie/configs/ngpc/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/pc/retroarch_crt.cfg /opt/retropie/configs/pc/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/pc98/retroarch_crt.cfg /opt/retropie/configs/pc98/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/pce-cd/retroarch_crt.cfg /opt/retropie/configs/pce-cd/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/pcengine/retroarch_crt.cfg /opt/retropie/configs/pcengine/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/ports/cavestory/retroarch_crt.cfg /opt/retropie/configs/ports/cavestory/retroarch.cfg > /dev/null
