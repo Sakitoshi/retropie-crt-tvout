@@ -146,7 +146,7 @@ void main()
 
    vec4 screen = COMPAT_TEXTURE(Source, screen_coord); //the main video screen
    vec4 background = vec4(COMPAT_TEXTURE(BORDER, vTexCoord)); //put your background function's output here
-   if ( screen_coord.x < 0.9999 - OS_MASK_RIGHT && screen_coord.x > 0.0001 + OS_MASK_LEFT && screen_coord.y < 0.9999 - OS_MASK_BOTTOM && screen_coord.y > 0.0001 + OS_MASK_TOP && border_on_top > 0.5 )
+   if (screen_coord.x < 0.9999 - OS_MASK_RIGHT && screen_coord.x > 0.0001 + OS_MASK_LEFT && screen_coord.y < 0.9999 - OS_MASK_BOTTOM && screen_coord.y > 0.0001 + OS_MASK_TOP && border_on_top > 0.5)
       background.a *= 0.0;
    if (screen_coord.x > 0.0 && screen_coord.x < 1.0 && screen_coord.y > 0.0 && screen_coord.y < 1.0) // needed to prevent the screen from repeating at the edges on raspberry pi
       screen = screen;
@@ -156,6 +156,10 @@ void main()
       background = background;
    else
       background *= 0.0;
-   FragColor = vec4(mix(screen, background, background.a));
+
+   if (InputSize.x > 160.0 && InputSize.y > 144.0)
+      FragColor = COMPAT_TEXTURE(Source, vec2((TEX0.x * 1.125) - 0.063, (TEX0.y * 0.937) - 0.031));
+   else
+      FragColor = vec4(mix(screen, background, background.a));
 } 
 #endif
