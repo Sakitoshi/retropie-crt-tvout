@@ -156,9 +156,13 @@ void main()
       background = background;
    else
       background *= 0.0;
-
+   vec4 sgbborder = COMPAT_TEXTURE(Source, vec2((TEX0.x * 1.25) - 0.125, (TEX0.y * 0.937) - 0.031));
+   if (TEX0.x > 0.1 && TEX0.x < 0.9 && TEX0.y > 0.0333 && TEX0.y < 0.9666) // needed to prevent the border from repeating at the edges on raspberry pi
+      sgbborder = sgbborder;
+   else
+      sgbborder *= 0.0;
    if (InputSize.x > 160.0 && InputSize.y > 144.0)
-      FragColor = COMPAT_TEXTURE(Source, vec2((TEX0.x * 1.125) - 0.063, (TEX0.y * 0.937) - 0.031));
+      FragColor = sgbborder;
    else
       FragColor = vec4(mix(screen, background, background.a));
 } 
