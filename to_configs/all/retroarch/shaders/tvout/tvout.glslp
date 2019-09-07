@@ -1,4 +1,5 @@
-shaders = 1
+shaders = 2
 shader0 = shaders/tvout-tweaks.glsl
 wrap_mode0 = clamp_to_border
-scale_type_0 = source
+shader1 = ../stock.glsl
+wrap_mode1 = clamp_to_border

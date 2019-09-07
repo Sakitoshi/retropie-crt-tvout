@@ -133,25 +133,26 @@ alternatively you can create a _240p.txt_ file to force 480i to all games BUT th
 
 example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i only to _Bloody Roar 2_</br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/psx/480i.txt_ containing _all_ to force 480i for all the PlayStation games.</br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/ports/kodi/480i.txt_ containing _all_ to force 480i in Kodi.</br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/ports/kodi/480i.txt_ containing _all_ to force 480i on Kodi.</br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/dreamcast/240p.txt_ containing _Street Fighter III_ to force 480i to all games but Street Fighter III.
 
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
 1. **connect your raspberry pi to your network (ethernet or wireless, it doesn't matter).**
-2. **connect to your raspberry pi via samba shares.**
-3. **copy the contents of the bios and configs folders in the respective folders inside
+2. **update it to the latest version of retropie.**
+3. **connect to your raspberry pi via samba shares.**
+4. **copy the contents of the bios and configs folders in the respective folders inside
    your raspberry pi.**
-4. **turn off your raspberry pi and put its sd card on your pc.**
-5. **copy the contents of the to_config.txt file at the end of the config.txt file on the
+5. **turn off your raspberry pi and put its sd card on your pc.**
+6. **copy the contents of the to_config.txt file at the end of the config.txt file on the
    sd card (use notepad++ or similar for this, never use windows notepad).**
-6. **put the sd card back on your raspberry pi and copy some games.**
-7. **install low resolution friendly themes for emulation station (gbz35, gbz35-dark,
+7. **put the sd card back on your raspberry pi and copy some games.**
+8. **install low resolution friendly themes for emulation station (gbz35, gbz35-dark,
    freeplay, tft, pixel-tft, minilumi and simpler-turtlemini are good ones or you can try
    [this one that I made](https://github.com/Sakitoshi/es-theme-Megarace)).**
-8. **read above if you want to change how portable consoles are going to look or change
+9. **read above if you want to change how portable consoles are going to look or change
    game boy palettes.**
-9. **enjoy your games on a good'ol crt tv.**
+10. **enjoy your games on a good'ol crt tv.**
 
 follow the retropie documentation if you don't know how to connect your raspberry pi
 to your network, samba shares or how to use runcommand.
