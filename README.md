@@ -136,6 +136,19 @@ example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i onl
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/ports/kodi/480i.txt_ containing _all_ to force 480i on Kodi.</br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/dreamcast/240p.txt_ containing _Street Fighter III_ to force 480i to all games but Street Fighter III.
 
+#### vertical mode:
+a new addition is the vertical mode that allows you to play vertical arcade games without having
+to rotate your tv.</br>
+to use it first you have to open the game you want to apply this mode, open retroarch menu
+go to overrides and save game overrides. this will create a file in the _configs/arcade/config\_crt/emulator/rom.cfg_
+folder, where _emulator_ is the name of the emulator used (typically _FinalBurn Neo_ or _MAME 2003 (0.78)_)
+and rom is the filename of the game.</br>
+once you have that file open it on a text editor and replace its contents with the contents of the
+_configs/arcade/vertical.cfg_ file.</br>
+if after that the game isn't displaying correctly or is vertical but upside down, change _video\_allow\_rotate_ to _false_, uncomment (delete the slashes before) _video\_rotation_ and assign it a value between _1_ and _3_.</br>
+I recommend running vertical games in 480i mode because you'll lose image detail without the
+extra resolution, but they still look excellent in 240p.
+
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
 1. **connect your raspberry pi to your network (ethernet or wireless, it doesn't matter).**
