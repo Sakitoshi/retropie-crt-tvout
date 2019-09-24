@@ -10,7 +10,7 @@ the crt configurations aren't perfect as the configurations available in the bui
 composite out of the raspberry pi are very limited.
 
 #### systems (and emulator) configured and tested:
-- arcade (finalburn alpha and mame 2003. if the game native vertical resolution is 480 or less)
+- arcade (finalburn alpha/neo and mame 2003. if the game native vertical resolution is 480 or less)
 - atari 8bit computers (atari800)
 - atari 2600 (stella)
 - atari 5200 (atari800)
@@ -43,6 +43,7 @@ composite out of the raspberry pi are very limited.
 - super nes (snes9x 2010, but other versions should work too)
 - turbografx 16/pc engine/pce-cd (mednafen pce fast and mednafen supergrafx)
 - wonderswan/color (mednafen wonderswan)
+- zx spectrum (fuse)
 
 all the configurations are for the libretro version of the emulators as they use
 retroarch scaling capabilities and shaders to match each system resolution.

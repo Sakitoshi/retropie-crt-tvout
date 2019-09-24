@@ -33,4 +33,5 @@ cp /opt/retropie/configs/sg-1000/retroarch_crt.cfg /opt/retropie/configs/sg-1000
 cp /opt/retropie/configs/snes/retroarch_crt.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/wonderswan/default`; cp /opt/retropie/configs/wonderswan/retroarch_$default.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
 default=`cat /opt/retropie/configs/wonderswancolor/default`; cp /opt/retropie/configs/wonderswancolor/retroarch_$default.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/zxspectrum/retroarch_crt.cfg /opt/retropie/configs/zxspectrum/retroarch.cfg > /dev/null
 exit 1

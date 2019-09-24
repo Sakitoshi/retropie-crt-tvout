@@ -33,4 +33,5 @@ cp /opt/retropie/configs/sg-1000/retroarch_hdmi.cfg /opt/retropie/configs/sg-100
 cp /opt/retropie/configs/snes/retroarch_hdmi.cfg /opt/retropie/configs/snes/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/wonderswan/retroarch_hdmi.cfg /opt/retropie/configs/wonderswan/retroarch.cfg > /dev/null
 cp /opt/retropie/configs/wonderswancolor/retroarch_hdmi.cfg /opt/retropie/configs/wonderswancolor/retroarch.cfg > /dev/null
+cp /opt/retropie/configs/zxspectrum/retroarch_hdmi.cfg /opt/retropie/configs/zxspectrum/retroarch.cfg > /dev/null
 exit 1
