@@ -137,7 +137,13 @@ example: _configs/psx/480i.txt_ containing _Bloody Roar 2.pbp_ to force 480i onl
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/ports/kodi/480i.txt_ containing _all_ to force 480i on Kodi.</br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;_configs/dreamcast/240p.txt_ containing _Street Fighter III_ to force 480i to all games but Street Fighter III.
 
-#### vertical mode:
+#### enhance arcade games:
+arcade games are tricky to get a good picture out of because of the nature of arcade monitors
+, the great range of resolutions those games use and some games even use the monitor in a vertical position.</br>
+the good news is that there is something that can be done to try to frame them and don't lose
+the borders of the image that many times contains important information for the game.
+
+- **vertical mode:**
 a new addition is the vertical mode that allows you to play vertical arcade games without having
 to rotate your tv.</br>
 to use it first you have to open the game you want to apply this mode, open retroarch menu
@@ -149,6 +155,18 @@ _configs/arcade/vertical.cfg_ file.</br>
 if after that the game isn't displaying correctly or is vertical but upside down, change _video\_allow\_rotate_ to _false_, uncomment (delete the slashes before) _video\_rotation_ and assign it a value between _1_ and _3_.</br>
 I recommend running vertical games in 480i mode because you'll lose image detail without the
 extra resolution, but they still look excellent in 240p.
+
+- **expand field of view:**
+there are 3 additional configurations that can be used to force the game picture to fit inside the
+viewable area of the screen without having to resort to adjust your tv (and potentially screw up
+all the other systems in the process).</br>
+those configs are used in the same way as the vertical mode above (except it doesn't have anything
+to manually adjust), the files are _configs/arcade/expand1.cfg_, _configs/arcade/expand2.cfg_
+and _configs/arcade/expand3.cfg_ each one being more aggressive.</br>
+for reference, _expand1.cfg_ is being used in popeye and _expand3.cfg_ is applied in all the mortal kombat games.
+
+if you prefer to have all set up, an optional zip file named _arcade\_tweaks.zip_ with all the vertical games
+(and a few of the other problem games like mortal kombat) already configured is included.
 
 #### how to use:
 - it is recommended to use a fresh installation of retropie but isn't mandatory.
@@ -165,7 +183,7 @@ extra resolution, but they still look excellent in 240p.
    freeplay, tft, pixel-tft, minilumi and simpler-turtlemini are good ones or you can try
    [this one that I made](https://github.com/Sakitoshi/es-theme-Megarace)).**
 9. **read above if you want to change how portable consoles are going to look or change
-   game boy palettes.**
+   game boy palettes or apply some tweaks to arcade games.**
 10. **enjoy your games on a good'ol crt tv.**
 
 follow the retropie documentation if you don't know how to connect your raspberry pi
