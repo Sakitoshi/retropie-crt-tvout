@@ -46,7 +46,7 @@ void main()
 {
    gl_Position = MVPMatrix * VertexCoord;
 
-   vec2 box_scale = floor(OutputSize.xy / InputSize.xy);
+   vec2 box_scale = floor((OutputSize.xy / InputSize.xy) + 0.0002); // hack. with mediump the precision is bad enough to distort this result.
    float y_scale = box_scale.y;
 
    float scale = (OutputSize.y / InputSize.y) / y_scale;
