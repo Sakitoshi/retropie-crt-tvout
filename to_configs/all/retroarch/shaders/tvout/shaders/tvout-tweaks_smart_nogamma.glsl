@@ -193,12 +193,12 @@ uniform COMPAT_PRECISION vec2 InputSize;
 void main()
 {
     float _video_X;
-    if (InputSize.x < 304.0)
-        _video_X = InputSize.x*1.0;
-    else if (InputSize.x < 320.0 && InputSize.x >= 304.0)
-        _video_X = InputSize.x*0.7;
-    else
+    if (InputSize.x >= 357.0)
         _video_X = InputSize.x*0.6;
+    else if (InputSize.x < 357.0 && InputSize.x >= 304.0)
+        _video_X = InputSize.x*(214.0/InputSize.x);
+    else
+        _video_X = InputSize.x*1.0;
     vec3 _tempColor;
     float _oneT;
     float _oneI;
