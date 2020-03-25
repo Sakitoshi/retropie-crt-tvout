@@ -49,6 +49,8 @@ void main()
    float x_scale = 2.0;
    if (InputSize.x == 284.0)
       x_scale = 2.492957746478873;
+   if (InputSize.x == 256.0)
+      x_scale = 2.5;
    float y_scale = 1.0;
    vec2 box_scale = vec2(x_scale, y_scale);
 
